@@ -11,41 +11,44 @@ class Read_text:
         self.imgs = img
 
     def easy_read(self):
+
+        print(len(self.imgs))
+
         reader = easyocr.Reader(['en','en'])
 
         result = []
 
         for img in self.imgs:
-            bounds = reader.readtext(img,detail = 0)
-            result.append(bounds)
+            #print(len(img))
+            temp = []
+            for i in img:
+                if i == "None":
+                    temp.append("None")
+                else:
+                    bounds = reader.readtext(i,detail = 0)
+                    temp.append(bounds)
+            result.append(temp)
+                
 
         return result
 
 
     def data2dict(self):
         row = []
-        data = dict()
-
-        temp = self.easy_read()
-
-        #data['date'] = date
-        #data['time'] = temp[2][0].replace(" ", "")
-        data['sys'] = temp[3][0]
-        data['dia'] = temp[0][0]
-        data['pul'] = temp[4][0]
-
-        row.append(data)
+        
+        i = 0
+        temps = self.easy_read()
+        
 
         return row
 
     def print_data(self):
         results = self.easy_read()
 
-        for result in results:
-            print(result[0][0])
-            print(result[3][0])
-            print(result[4][0])
-            print("-----------------------------")
+        #for result in results:
+        #    print(result[0][0])
+        #    print(result[3][0])
+        #    print(result[4][0])
+        #    print("-----------------------------")
 
-    def export_csv(self):
-        pass
+        print(results)
