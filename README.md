@@ -47,6 +47,7 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 * ![Streamlit Badge](https://img.shields.io/badge/Streamlit-FF4B4B?logo=streamlit&logoColor=fff&style=flat)
 * ![Python Badge](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff&style=flat)
 * ![PyTorch Badge](https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch&logoColor=fff&style=flat)
+* ![YOLO Badge](https://img.shields.io/badge/YOLO-0FF?logo=yolo&logoColor=000&style=plastic)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
