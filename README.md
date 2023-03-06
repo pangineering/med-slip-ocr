@@ -52,16 +52,6 @@ To get a local copy up and running follow these simple example steps.
 
 
 
-## Installation
-
-    
-## Tech Stack
-
-**Language:** Python
-
-**AI Framework:** Pytorch
-
-**Algorithms:** YOLOv5
 
 
 ## Features
