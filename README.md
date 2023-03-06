@@ -2,7 +2,7 @@
 <div align="center">
 
 <h3 align="center">Med Slip OCR Project</h3>
-    <img src="images/logo.png" alt="Logo" >
+    <img src="logo.png" alt="Logo" >
 </div>
 This project is created and developed at Botnoi during the Super AI Engineer Internship.
 
