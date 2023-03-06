@@ -20,7 +20,6 @@
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
@@ -31,14 +30,30 @@
   </ol>
 </details>
 
+<!-- GETTING STARTED -->
+## Getting Started
 
-## Installation
+This is an example of how you may give instructions on setting up your project locally.
+To get a local copy up and running follow these simple example steps.
 
-Install all required libraries
 
+### Installation
+
+1. Clone the repo
+   ```sh
+   git clone https://github.com/github_username/repo_name.git
+   ```
+2. Install all required libraries
 ```bash
   pip install -r requirements.txt
 ```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+## Installation
+
     
 ## Tech Stack
 
