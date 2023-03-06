@@ -40,13 +40,13 @@ To get a local copy up and running follow these simple example steps.
 ### Installation
 
 1. Clone the repo
-   ```sh
-   git clone https://github.com/pangineering/med-slip-ocr.git
-   ```
+```sh
+git clone https://github.com/pangineering/med-slip-ocr.git
+```
 2. Install all required libraries
-  ```sh
-    pip install -r requirements.txt
-  ```
+```sh
+pip install -r requirements.txt
+```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
