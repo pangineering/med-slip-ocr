@@ -44,7 +44,7 @@ To get a local copy up and running follow these simple example steps.
    git clone https://github.com/pangineering/med-slip-ocr.git
    ```
 2. Install all required libraries
-  ```bash
+  ```sh
     pip install -r requirements.txt
   ```
 
