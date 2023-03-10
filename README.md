@@ -36,7 +36,7 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
+Med Slip OCR is an AI-powered project developed during the Super AI Engineer Internship at Botnoi. The project uses object detection and OCR techniques to read numbers from medical slips, making the process faster, more accurate, and less prone to human error. The web application developed using Streamlit is user-friendly and provides an accessible interface for users to upload one or more images of medical slips and get the output in real-time.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
